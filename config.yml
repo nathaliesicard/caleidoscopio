@@ -1,0 +1,12 @@
+---
+:api_key: cec50af1245755c3280a4b9154ba1885
+:password: 60b5a081c2fbc043f9e25ed5c66fca8b
+:store: caleidoscopio-3.myshopify.com
+:theme_id: 
+:whitelist_files:
+- layout/
+- assets/
+- config/
+- snippets/
+- templates/
+- locales/
