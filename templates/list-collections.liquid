@@ -3,12 +3,12 @@
 {% endcomment %}
 
 <header class="section-header">
-  <h1 class="section-header__title">{{ 'collections.general.title' | t }}</h1>
+  <h1 class="section-header__title">Temas</h1>
 </header>
 
 <div class="grid-uniform">
   {% for collection in collections %}
-    {% unless collection.handle == 'frontpage' %}
+    {% unless collection.handle == 'caleidoscopio-marca-registrada' or collection.handle == 'usana' or collection.handle == 'rescue' or collection.handle == 'attar-aceites-esenciales' or  collection.handle == 'energy-muse-jewelry' or collection.handle == 'doterra' or collection.handle == 'hay-house' or collection.handle == 'esencias-florales-del-mediterraneo' or collection.handle == 'swissjust' or collection.handle == 'young-living'%}
       {% assign collection_item_width = 'medium-down--one-half large--one-third' %}
       {% assign featured = collection.handle %}
       {% include 'collection-grid-item' %}

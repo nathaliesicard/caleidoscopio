@@ -757,11 +757,14 @@ h6 {
 .header-bar {
   @include clearfix();
   font-size: em(14px);
-  background-color: $colorTopBar;
-  color: $colorTopBarText;
+  /* background-color: $colorTopBar; */
+  background-color: transparent;
+  /* color: $colorTopBarText; */
+  color: #fff;
   padding-top: 2px;
   padding-bottom: 2px;
   text-align: center;
+
 
   @include at-query($min, $large) {
     text-align: right;
@@ -771,7 +774,8 @@ h6 {
 
   a,
   button {
-    color: $colorTopBarText;
+    /* color: $colorTopBarText; */
+    color: #fff;
 
     &:hover,
     &:active,
@@ -833,7 +837,8 @@ h6 {
 .header-bar__cart-count {
   display: inline-block;
   border-radius: $radius;
-  background-color: $colorTopBarText;
+  /* background-color: $colorTopBarText; */
+  background-color: #fff;
   color: $colorPrimary;
   line-height: 1;
   font-size: 1.1em;
@@ -2047,4 +2052,16 @@ $shareBorderColor: #ececec;
 
 .section-header__title {
     color: #994334;
+}
+
+/* Nath's CSS */
+
+.payment_methods img {
+  padding-right: 4px;
+  height: 24px;
+  width: 40px;
+}
+
+.additional-checkout-buttons {
+  display: none;
 }

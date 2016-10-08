@@ -74,7 +74,7 @@
       "note": "Instrucciones especiales para el vendedor",
       "savings_html": "Está ahorrando {{ price }}",
       "subtotal": "Subtotal",
-      "shipping_at_checkout": "Los códigos de descuento, los costes de envío y los impuestos se añaden durante el pago.",
+      "shipping_at_checkout": "Los códigos de descuento y el costo de envío se añaden durante el checkout.",
       "update": "Actualizar carrito",
       "checkout": "Finalizar pedido",
       "empty": "Su carrito actualmente está vacío.",
@@ -225,7 +225,7 @@
       "frontpage_title": "Colección de portada",
       "frontpage_view_all": "Ver todos los artículos",
       "featured_title": "Colecciones destacadas",
-      "featured_view_all": "Ver todos los collections"
+      "featured_view_all": "Ver todos los temas"
     },
     "onboarding": {
       "modal_title": "Casi allí...",

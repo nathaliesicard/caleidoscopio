@@ -1931,34 +1931,42 @@ $socialIconFontStack: 'icons';
   }
 }
 
+/*================ Module | Big Header ================*/
+
+.big-header {
+
+  /* fallback */
+  background-color: #3E68A6;
+  background-repeat: repeat-x;
+  background: linear-gradient(#2b4874, #fff);
+
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2b4874), to(#fff));
+
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #3E68A6, #fff);
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #3E68A6, #fff);
+
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #3E68A6, #fff);
+
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #3E68A6, #fff);
+}
+
 /*================ Module | Site Header ================*/
 .site-header {
-  padding: 40px 0;
+  padding: 0px 0 40px 0;
   /* background-color: $colorHeader; */
 
-    /* fallback */
-    background-color: #3E68A6;
-    background-repeat: repeat-x;
-    background: linear-gradient(#2b4874, #FFFFFF);
 
-    /* Safari 4-5, Chrome 1-9 */
-    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2b4874), to(#FFFFFF));
-
-    /* Safari 5.1, Chrome 10+ */
-    background: -webkit-linear-gradient(top, #2b4874, #FFFFFF);
-
-    /* Firefox 3.6+ */
-    background: -moz-linear-gradient(top, #2b4874, #FFFFFF);
-
-    /* IE 10 */
-    background: -ms-linear-gradient(top, #2b4874, #FFFFFF);
-
-    /* Opera 11.10+ */
-    background: -o-linear-gradient(top, #2b4874, #FFFFFF);
 
 
   @include at-query ($min, $large) {
-    padding: $gutter 0;
+    /* padding: $gutter 0; */
+    padding: 0px 0 40px 0;
 
     .large--display-table {
       min-height: 86px;
